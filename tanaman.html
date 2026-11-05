@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pohon Duku - Informasi Tanaman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tanaman.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-leaf"></i>
+            <span>Kelompok 63-3</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="tanaman.html" class="active"><i class="fas fa-seedling"></i> Pohon Duku</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="tanaman-hero">
+        <div class="tanaman-hero-overlay"></div>
+        <div class="tanaman-hero-content">
+            <span class="tanaman-badge"><i class="fas fa-seedling"></i> Informasi Tanaman</span>
+            <h1>Pohon Duku</h1>
+            <p class="scientific-name"><em>Lansium domesticum</em></p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="tanaman-main">
+        <!-- Photo Section -->
+        <section class="tanaman-photo-section">
+            <div class="photo-frame">
+                <img src="images/Pohon_Duku.jpg" alt="Pohon Duku" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-frame-placeholder').style.display='flex';">
+                
+                <div class="photo-label">
+                    <i class="fas fa-camera"></i> Pohon Duku (<em>Lansium domesticum</em>)
+                </div>
+            </div>
+        </section>
+
+        <!-- Description Section -->
+        <section class="tanaman-description">
+            <div class="desc-card">
+                <div class="desc-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h2>Deskripsi Tanaman</h2>
+                <div class="desc-divider"></div>
+                <p>
+                    <strong>Pohon Duku</strong> (<em>Lansium domesticum</em>) adalah tanaman buah tropis yang berasal dari Asia Tenggara. 
+                    Tanaman ini termasuk dalam famili <em>Meliaceae</em> dan telah dibudidayakan selama berabad-abad di wilayah 
+                    Indonesia, Malaysia, Thailand, dan Filipina.
+                </p>
+                <p>
+                    Pohon duku memiliki tinggi yang dapat mencapai <strong>15-30 meter</strong> dengan batang yang tegak dan 
+                    berdiameter sekitar 50-75 cm. Daunnya majemuk menyirip ganjil dengan 6-9 anak daun berbentuk elips. 
+                    Kulit batang berwarna cokelat keabu-abuan dan mengeluarkan getah putih lengket saat digores.
+                </p>
+                <p>
+                    Buah duku berbentuk bulat lonjong berdiameter 2-7 cm, berkelompok dalam tandan. Kulit buah tipis berwarna 
+                    kuning kecokelatan. Daging buah berwarna putih bening, berasa manis sedikit asam, dan mengandung vitamin C, 
+                    fosfor, serta zat besi yang bermanfaat bagi kesehatan.
+                </p>
+
+                <div class="info-cards-row">
+                    <div class="mini-info-card">
+                        <i class="fas fa-ruler-vertical"></i>
+                        <h4>Tinggi</h4>
+                        <p>15 - 30 meter</p>
+                    </div>
+                    <div class="mini-info-card">
+                        <i class="fas fa-cloud-sun"></i>
+                        <h4>Iklim</h4>
+                        <p>Tropis Lembab</p>
+                    </div>
+                    <div class="mini-info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Asal</h4>
+                        <p>Asia Tenggara</p>
+                    </div>
+                    <div class="mini-info-card">
+                        <i class="fas fa-apple-alt"></i>
+                        <h4>Buah</h4>
+                        <p>2 - 7 cm</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Growth Process Section -->
+        <section class="growth-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon"><i class="fas fa-chart-line"></i></span>
+                    Alur Pertumbuhan Tanaman
+                </h2>
+                <div class="title-underline"></div>
+                <p class="section-desc">Dari biji hingga menghasilkan buah yang manis</p>
+            </div>
+
+            <div class="timeline">
+                <!-- Stage 1 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">01</div>
+                        <h3><i class="fas fa-seedling"></i> Perkecambahan Biji</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> Minggu 1 - 4</p>
+                        <p>
+                            Biji duku yang segar ditanam dalam media tanam yang lembab dan kaya humus. 
+                            Biji mulai berkecambah setelah 1-2 minggu dengan munculnya radikula (akar kecambah) 
+                            yang menembus kulit biji. Suhu optimal untuk perkecambahan adalah 25-30°C dengan 
+                            kelembaban tinggi.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">02</div>
+                        <h3><i class="fas fa-leaf"></i> Fase Bibit (Semai)</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> Bulan 1 - 12</p>
+                        <p>
+                            Bibit mulai menumbuhkan daun pertama dan sistem perakaran yang lebih kuat. 
+                            Pada fase ini bibit membutuhkan naungan sekitar 50-70% karena sensitif terhadap 
+                            sinar matahari langsung. Penyiraman rutin dan pemupukan ringan dilakukan untuk 
+                            mendukung pertumbuhan optimal.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">03</div>
+                        <h3><i class="fas fa-tree"></i> Fase Vegetatif</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> Tahun 1 - 5</p>
+                        <p>
+                            Pohon duku tumbuh semakin tinggi dan mengembangkan tajuk yang lebat. 
+                            Batang semakin kokoh dan cabang-cabang mulai terbentuk dengan baik. 
+                            Daun majemuk menyirip berkembang sempurna. Pada fase ini pemupukan 
+                            dan perawatan intensif sangat penting untuk membangun struktur pohon yang kuat.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">04</div>
+                        <h3><i class="fas fa-sun"></i> Fase Pembungaan</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> Tahun 5 - 8</p>
+                        <p>
+                            Pohon duku mulai memasuki fase generatif dan menghasilkan bunga untuk pertama kali. 
+                            Bunga muncul dalam tandan pada batang dan cabang utama (kauliflori). 
+                            Bunga berwarna putih kekuningan dan memiliki aroma harum yang menarik serangga 
+                            penyerbuk. Penyerbukan dapat terjadi secara alami oleh serangga.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 5 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">05</div>
+                        <h3><i class="fas fa-apple-alt"></i> Fase Pembuahan</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> 4 - 6 bulan setelah berbunga</p>
+                        <p>
+                            Setelah penyerbukan berhasil, bunga berkembang menjadi buah muda berwarna hijau. 
+                            Buah tumbuh dalam tandan berisi 10-30 buah. Proses pematangan memakan waktu 
+                            sekitar 4-6 bulan. Buah matang ditandai dengan kulit yang berubah warna menjadi 
+                            kuning kecokelatan dan daging buah yang manis.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 6 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="stage-number">06</div>
+                        <h3><i class="fas fa-hand-holding-heart"></i> Panen & Produksi</h3>
+                        <p class="stage-duration"><i class="fas fa-clock"></i> Setiap tahun setelah dewasa</p>
+                        <p>
+                            Pohon duku yang sudah dewasa (usia 8+ tahun) dapat menghasilkan buah secara rutin 
+                            setiap tahun. Satu pohon dewasa dapat menghasilkan 200-300 kg buah per musim panen. 
+                            Panen dilakukan dengan cara memotong tandan buah yang sudah matang. 
+                            Pohon duku dapat berbuah produktif hingga usia 40-50 tahun dengan perawatan yang baik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button-container">
+            <a href="index.html" class="btn-back">
+                <i class="fas fa-arrow-left"></i>
+                <span>Kembali ke Home</span>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-leaf"></i>
+                <span>Kelompok 63-3</span>
+            </div>
+            <p>&copy; 2026 Website Kelompok 63-3. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

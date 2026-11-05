@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 63-3 - Pohon Duku</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-leaf"></i>
+            <span>Kelompok 63-3</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="tanaman.html"><i class="fas fa-seedling"></i> Pohon Duku</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Plant Card -->
+    <section class="hero-section">
+        <div class="floating-particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Selamat Datang</h1>
+            <p class="hero-subtitle">Website Kelompok Kami — Mengenal Pohon Duku</p>
+        </div>
+
+        <!-- Plant Card / Button to Tanaman Page -->
+        <div class="plant-card" onclick="window.location.href='tanaman.html'">
+            <div class="plant-card-image">
+                <!-- Slot untuk gambar tanaman -->
+                <img src="images/Pohon_Duku.jpg" alt="Pohon Duku" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder').style.display='flex';">
+                <div class="placeholder" style="display: none;">
+                    <i class="fas fa-tree"></i>
+                    <span>Gambar Pohon Duku</span>
+                </div>
+                <div class="plant-card-overlay">
+                    <i class="fas fa-seedling"></i>
+                </div>
+            </div>
+            <div class="plant-card-body">
+                <h2 class="plant-card-title">
+                    <i class="fas fa-leaf"></i> Pohon Duku
+                </h2>
+                <p class="plant-card-desc">Pelajari lebih lanjut tentang tanaman Pohon Duku, deskripsi, dan alur pertumbuhannya.</p>
+                <a href="tanaman.html" class="btn-more-info">
+                    <span>More Info</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="card-shine"></div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-users"></i></span>
+                Anggota Kelompok
+            </h2>
+            <div class="title-underline"></div>
+            <p class="section-desc">Kenali setiap anggota kelompok kami</p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Member 1 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Depati.jpg" alt="Anggota 1" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>Muhammad Depati</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 120110260067</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Ekonomi dan Bisnis</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Akuntansi</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Ketua Kelompok</div>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Michellin.jpg" alt="Anggota 2" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>Michellin</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 240210260145</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Teknologi Industri Pertanian</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Teknologi Pangan</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 1</div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Laila.jpg" alt="Anggota 3" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>Laila Nurul Amalia</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 260110260024</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Farmasi</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Farmasi</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 2</div>
+            </div>
+
+            <!-- Member 4 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/zaki.jpg" alt="Anggota 4" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>Mohamad Zaki Mubaraq</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 240310260053</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Teknologi Industri Pertanian</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Teknologi Industri Pertanian</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 3</div>
+            </div>
+
+            <!-- Member 5 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Maria.jpg" alt="Anggota 5" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>Maria Betania Siahaan</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 281204260028</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Sekolah Vokasi</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Agrotekno-preneur</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 4</div>
+            </div>
+
+            <!-- Member 6 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Alfard.jpg" alt="Anggota 6" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>M. Alfard Ibraginov Ghaza</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 130110260327</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Kedokteran</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Kedokteran</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 5</div>
+            </div>
+
+            <!-- Member 7 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Meisya.jpg" alt="Anggota 7" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>⁠Meisya Rahendita</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 180410260037</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Fakultas Ilmu Budaya</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Sastra Inggris</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 6</div>
+            </div>
+
+            <!-- Member 8 -->
+            <div class="member-card" data-aos="fade-up">
+                <div class="member-photo">
+                    <img src="images/Nabil.jpg" alt="Anggota 8" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex';">
+                    <div class="member-overlay">
+                        <div class="member-info">
+                            <h3>⁠Muhammad Nabil Yusra</h3>
+                            <div class="info-line"><i class="fas fa-id-badge"></i> <span>NPM: 280304260041</span></div>
+                            <div class="info-line"><i class="fas fa-university"></i> <span>Sekolah Vokasi</span></div>
+                            <div class="info-line"><i class="fas fa-graduation-cap"></i> <span>Akuntansi Perpajakan</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-name-tag">Anggota 7</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-leaf"></i>
+                <span>Kelompok 63-3</span>
+            </div>
+            <p>&copy; 2026 Website Kelompok 63-3. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
